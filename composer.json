@@ -1,0 +1,23 @@
+
+{
+    "name": "lotos/log",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "McLotos",
+            "email": "mclotos@xakep.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lotos\\Log\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "fig/event-dispatcher-util": "^1.3.0",
+        "psr/event-dispatcher": "^1.0"
+    }
+}
